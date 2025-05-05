@@ -8,13 +8,15 @@ const taskMapper = (task: Task): Task => {
             tasklist_id: task.tasklist_id,
             task: task.task,
             created_at: frontEndDate(task.created_at),
-            updated_at: frontEndDate(task.updated_at)
+            updated_at: frontEndDate(task.updated_at),
+            is_done: task.is_done
         }
     else return {
         tasklist_id: task.tasklist_id,
         task: task.task,
         created_at: frontEndDate(task.created_at),
-        updated_at: null
+        updated_at: null,
+        is_done: task.is_done
     }
 }
 
