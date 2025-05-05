@@ -1,6 +1,6 @@
 # Description
 
-This is a backend application built with Node.js, Express, and TypeScript, using PostgreSQL as the database. Its primary purpose is to provide a RESTful API for a frontend application.
+This is a backend application built with Node.js, Express, and TypeScript, using PostgreSQL as the database. Its primary purpose is to provide a REST API for a frontend application.
 
 # Node Version
 
